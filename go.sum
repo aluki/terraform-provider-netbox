@@ -18,6 +18,8 @@ github.com/PuerkitoBio/purell v1.2.1/go.mod h1:ZwHcC/82TOaovDi//J/804umJFFmbOHPn
 github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578/go.mod h1:uGdkoq3SwY9Y+13GIhn11/XLaGBb4BfwItxLd5jeuXE=
 github.com/agext/levenshtein v1.2.3 h1:YB2fHEn0UJagG8T1rrWknE3ZQzWM06O8AMAatNn7lmo=
 github.com/agext/levenshtein v1.2.3/go.mod h1:JEDfjyjHDjOF/1e4FlBE/PkbqA9OfWu2ki2W0IB5558=
+github.com/aluki/go-netbox v0.0.0-20260623114237-a079d866e25b h1:hw5YFndDmzQN73lHeausQ3/lSvw2k4NMdLF9LkK+zbs=
+github.com/aluki/go-netbox v0.0.0-20260623114237-a079d866e25b/go.mod h1:3U3/m/hna9Ntd3sbHBYwZ1IqbP2+coRzoXw3mCfu3kM=
 github.com/apparentlymart/go-textseg/v12 v12.0.0/go.mod h1:S/4uRK2UtaQttw1GenVJEynmyUenKwP++x/+DdGV/Ec=
 github.com/apparentlymart/go-textseg/v15 v15.0.0 h1:uYvfpb3DyLSCGWnctWKGj857c6ew1u1fNQOlOtuGxQY=
 github.com/apparentlymart/go-textseg/v15 v15.0.0/go.mod h1:K8XmNZdhEBkdlyDdvbmmsvpAG721bKi0joRfFdHIWJ4=
@@ -44,8 +46,6 @@ github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5Kwzbycv
 github.com/fatih/color v1.13.0/go.mod h1:kLAiJbzzSOZDVNGyDpeOxJ47H46qBXwg5ILebYFFOfk=
 github.com/fatih/color v1.19.0 h1:Zp3PiM21/9Ld6FzSKyL5c/BULoe/ONr9KlbYVOfG8+w=
 github.com/fatih/color v1.19.0/go.mod h1:zNk67I0ZUT1bEGsSGyCZYZNrHuTkJJB+r6Q9VuMi0LE=
-github.com/fbreckle/go-netbox v0.0.0-20260615100513-e55bea5bec39 h1:9hATmWLiSu2ipyjr8Nk8MUZZAFSYMfer2vP5EyanKHo=
-github.com/fbreckle/go-netbox v0.0.0-20260615100513-e55bea5bec39/go.mod h1:3U3/m/hna9Ntd3sbHBYwZ1IqbP2+coRzoXw3mCfu3kM=
 github.com/fbreckle/terraform-plugin-docs v0.0.0-20220812121758-a828466500d3 h1:DMSpM0btVedE2Tt1vfDHWQhf2obzjAe1F0/j8/CyfW4=
 github.com/fbreckle/terraform-plugin-docs v0.0.0-20220812121758-a828466500d3/go.mod h1:j3HmJySEjx6hOAOPDjGzmzpVNDQq9SNnnF+Vm22d2rs=
 github.com/frankban/quicktest v1.14.3 h1:FJKSZTDHjyhriyC81FLQ0LY93eSai0ZyR/ZIkd3ZUKE=
