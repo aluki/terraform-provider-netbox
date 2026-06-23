@@ -3,6 +3,7 @@ module github.com/e-breuninger/terraform-provider-netbox
 go 1.25.8
 
 require (
+	github.com/Masterminds/semver/v3 v3.2.0
 	github.com/fbreckle/go-netbox v0.0.0-20260615100513-e55bea5bec39
 	github.com/fbreckle/terraform-plugin-docs v0.0.0-20220812121758-a828466500d3
 	github.com/go-openapi/runtime v0.32.3
@@ -17,7 +18,6 @@ require (
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
-	github.com/Masterminds/semver/v3 v3.2.0 // indirect
 	github.com/Masterminds/sprig/v3 v3.2.3 // indirect
 	github.com/ProtonMail/go-crypto v1.4.1 // indirect
 	github.com/PuerkitoBio/purell v1.2.1 // indirect
