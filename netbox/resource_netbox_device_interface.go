@@ -239,7 +239,9 @@ func resourceNetboxDeviceInterfaceRead(ctx context.Context, d *schema.ResourceDa
 	}
 	if iface.UntaggedVlan != nil {
 		d.Set("untagged_vlan", iface.UntaggedVlan.ID)
-	}
+	} else {
+		d.Set("untagged_vlan", nil)
+  }
 	if iface.Vrf != nil {
 		d.Set("vrf_id", iface.Vrf.ID)
 	} else {
