@@ -320,8 +320,12 @@ func resourceNetboxDeviceInterfaceUpdate(ctx context.Context, d *schema.Resource
 		data.Speed = &speed
 	}
 	if d.HasChange("untagged_vlan") {
-		untaggedvlan := int64(d.Get("untagged_vlan").(int))
-		data.UntaggedVlan = &untaggedvlan
+    if _, ok := d.GetOk("untagged_vlan"); ok {
+      untaggedvlan := int64(d.Get("untagged_vlan").(int))
+      data.UntaggedVlan = &untaggedvlan
+    } else {
+      data.UntaggedVlan = nil
+    }
 	}
 	if d.HasChange("primary_mac_address_id") {
 		primaryMac := int64(d.Get("primary_mac_address_id").(int))
